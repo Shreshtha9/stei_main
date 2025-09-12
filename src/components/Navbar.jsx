@@ -84,14 +84,14 @@ const Navbar = () => {
                   }`}
                 >
                   <a
-                    href="/story"
+                    href="/stei-story"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
                     onClick={handleLinkClick}
                   >
                     The stei Story: Empowering Individuals
                   </a>
                   <a
-                    href="/vision"
+                    href="/Vision"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
                     onClick={handleLinkClick}
                   >
@@ -146,7 +146,7 @@ const Navbar = () => {
                   }`}
                 >
                   <a
-                    href="/personal-experiences"
+                    href="/Inspirations"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
                     onClick={handleLinkClick}
                   >
@@ -212,14 +212,14 @@ const Navbar = () => {
                   }`}
                 >
                   <a
-                    href="/story"
+                    href="/stei-story"
                     className="text-white hover:bg-gray-800 block px-3 py-2 text-sm rounded transition-colors duration-300"
                     onClick={handleLinkClick}
                   >
                     The stei Story: Empowering Individuals
                   </a>
                   <a
-                    href="/vision"
+                    href="/Vision"
                     className="text-white hover:bg-gray-800 block px-3 py-2 text-sm rounded transition-colors duration-300"
                     onClick={handleLinkClick}
                   >
@@ -271,7 +271,7 @@ const Navbar = () => {
                   }`}
                 >
                   <a
-                    href="/personal-experiences"
+                    href="/Inspirations"
                     className="text-white hover:bg-gray-800 block px-3 py-2 text-sm rounded transition-colors duration-300"
                     onClick={handleLinkClick}
                   >
