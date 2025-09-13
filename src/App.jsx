@@ -11,6 +11,9 @@ import FounderPage from './components/FounderPage';
 import ProductsServices from './components/Productservices';
 import TermsConditions from './components/Termcondition';
 import CookiePolicy from './components/Cookiespolicy';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import RefundCancellationPolicy from './components/Refund';
+import AboutUs from './components/About';
 
 function App() {
   return (
@@ -30,6 +33,9 @@ function App() {
             <Route path="/products-services" element={<ProductsServices />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
               <Route path="/cookie-policy" element={<CookiePolicy />} />
+                  <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+                  <Route path="/refund-cancellation" element={<RefundCancellationPolicy />} />
+                   <Route path="/about-us" element={<AboutUs />} />
         </Routes>
         <Footer />
       </Router>
