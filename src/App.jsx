@@ -7,6 +7,10 @@ import RegisterMe from './components/form';
 import Inspiration from './components/Inspirations';
 import SteiStoryPage from './components/stei-story';
 import Vision from './components/Vision';
+import FounderPage from './components/FounderPage';
+import ProductsServices from './components/Productservices';
+import TermsConditions from './components/Termcondition';
+import CookiePolicy from './components/Cookiespolicy';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route path="/form" element={<RegisterMe />} />
           <Route path="/stei-story" element={<SteiStoryPage />} />
           <Route path="/Vision" element={<Vision />} />
+          <Route path="/founder" element={<FounderPage />} />
+            <Route path="/products-services" element={<ProductsServices />} />
+            <Route path="/terms-conditions" element={<TermsConditions />} />
+              <Route path="/cookie-policy" element={<CookiePolicy />} />
         </Routes>
         <Footer />
       </Router>
